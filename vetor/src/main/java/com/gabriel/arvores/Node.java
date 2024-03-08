@@ -1,37 +1,44 @@
 package com.gabriel.arvores;
 
-public class Node<T> {
+public class Node {
 
-    private T data;
-    private Node<T> left, right;
+    private int data;
+    private Node left, right;
 
-    public Node(T data) {
+    public Node(int data) {
         this.data = data;
         this.left = null;
         this.right = null;
     }
 
-    public T getData() {
+    public Node() {
+        this.data = 0;
+        this.left = null;
+        this.right = null;
+    }
+
+
+    public int getData() {
         return data;
     }
 
-    public void setData(T data) {
+    public void setData(int data) {
         this.data = data;
     }
 
-    public Node<T> getLeft() {
+    public Node getLeft() {
         return left;
     }
 
-    public void setLeft(Node<T> left) {
+    public void setLeft(Node left) {
         this.left = left;
     }
 
-    public Node<T> getRight() {
+    public Node getRight() {
         return right;
     }
 
-    public void setRight(Node<T> right) {
+    public void setRight(Node right) {
         this.right = right;
     }
 

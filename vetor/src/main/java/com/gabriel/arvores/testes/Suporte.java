@@ -18,15 +18,15 @@ public class Suporte {
      */
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
-        Node<Character> n1 = new Node<>('a');
-        Node<Character> n2 = new Node<>('+');
-        Node<Character> n3 = new Node<>('*');
-        Node<Character> n4 = new Node<>('b');
-        Node<Character> n5 = new Node<>('-');
-        Node<Character> n6 = new Node<>('/');
-        Node<Character> n7 = new Node<>('c');
-        Node<Character> n8 = new Node<>('d');
-        Node<Character> n9 = new Node<>('e');
+        Node n1 = new Node('a');
+        Node n2 = new Node('+');
+        Node n3 = new Node('*');
+        Node n4 = new Node('b');
+        Node n5 = new Node('-');
+        Node n6 = new Node('/');
+        Node n7 = new Node('c');
+        Node n8 = new Node('d');
+        Node n9 = new Node('e');
 
         n6.setLeft(n7);
         n6.setRight(n8);
